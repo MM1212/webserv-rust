@@ -1,0 +1,7 @@
+[package]
+name = "webserv-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mio = {version = "1.0.3", features = ["net", "os-poll"]}
